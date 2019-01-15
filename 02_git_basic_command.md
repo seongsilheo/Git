@@ -13,23 +13,23 @@
     mkdir ~/MyProject 
 이제 로컬 장소를 만들자. ~/를 입력하면 로컬 컴퓨터의 최상위 단계 디렉토리가 보일 것이다.
 
-<p><p>
+<br /><br />
 ## 3. 디렉토리 바꾸기
     cd ~/MyProject
 
 다음의 디렉토리로 옮겨간다.
 
-<p><p>
+<br /><br />
 ## 4. 이 디렉토리가 로컬 깃 저장소라고 컴퓨터에 말해줌.
     
     git init 
 
-<p><p>
+<br /><br />
 ## 5-1. 로컬 저장소와 깃허브 저장소를 연결.
     git remote add origin https://github.com/username/myproject.git
  remote는 origin의 설명자이며 origin은 로컬 컴퓨터가 아닌 온라인 어딘가를 가리킨다는 것이다.
 
-<p><p>
+<br/><br/>
 ## 5-2. 다른 원격저장소 생성
 
     git remote add memo https://github.come/username/memo.git
