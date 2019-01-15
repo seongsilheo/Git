@@ -1,6 +1,7 @@
 # 2) Git basic command  (git 명령어 정리) 
 
 <br /> 
+
 ## 1. 먼저 github에 가입후, 다음을 쓴다.
 
     git config --global user.name "Write your name"
@@ -9,6 +10,7 @@
 이는 반드시 Github.com을 가입할 때 사용한 이메일이어야한다.
 
 <br />
+
 ## 2. 로컬 저장폴더 생성
 
     mkdir ~/MyProject 
