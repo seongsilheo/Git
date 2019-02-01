@@ -91,3 +91,9 @@ git add 명령어로 새로운 파일을 인식후, commit으로 버전관리를
 
     git push -u origin master
  -u는 원격저장소로부터 업데이트를 받은 후 push를 한다는 의미이므로 습관적으로 사용하는 것이 좋다.
+
+<br/>
+
+## 12. 원격파일 로컬저장소에 저장
+
+    git pull origin master
