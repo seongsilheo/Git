@@ -7,3 +7,4 @@
 
 윈도우 사용자는 다음과 같은 명령어를 입력하면 된다. 시스템 전체가 아닌 해당 프로젝트에만 적용하고 싶으면 **-global**을 빼주면 된다.  
     
+    git config --global core.autocrlf true
