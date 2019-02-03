@@ -19,3 +19,5 @@ push 하기 이전에 **git pull**을 해서 원격저장소의 최신상태를 
     git pull origin master
     git commit -a
     git push origin master
+    
+git commit -a는 master branch를 통합하는 것임.
