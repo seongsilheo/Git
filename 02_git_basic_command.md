@@ -106,6 +106,8 @@ touch는 create하는 것을 의미.
 
     git pull origin master
    
-## 13. branch 생성
+<br/>
+
+## 13. master외의 branch 생성하고 싶으면,
 
      git branch <branchname>
