@@ -98,7 +98,7 @@ touch는 create하는 것을 의미.
 
     git push -u origin master
  -u는 원격저장소로부터 업데이트를 받은 후 push를 한다는 의미이므로 습관적으로 사용하는 것이 좋다.
-
+ master는 branch 이름.
 <br/>
 
 ## 12. 원격파일 로컬저장소에 저장
