@@ -105,3 +105,7 @@ touch는 create하는 것을 의미.
 ## 12. 원격파일 로컬저장소에 저장
 
     git pull origin master
+   
+## 13. branch 생성
+
+     git branch <branchname>
