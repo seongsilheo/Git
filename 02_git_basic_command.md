@@ -87,6 +87,13 @@ git add 명령어로 새로운 파일을 인식후, commit으로 버전관리를
 
 <br/>
 
+## 10-1. repository에 처음 commits할 내용 만들때
+   
+    touch initial
+    git add initial
+    git commit -m "initial commit"
+
+
 ## 11. 원격저장소에 파일을 적용
 
     git push -u origin master
