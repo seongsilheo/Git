@@ -19,3 +19,8 @@
  ---- | ---------- | ---- | ----
  김철수 | 검정 | 20 | 영화보기
  김똑똑 | 빨강 | 27 | 운동하기
+
+
+## latex 사용하기
+http://latex.codecogs.com/eqneditor/editor.php
+에서 생성한 이미지 주소 복사.
