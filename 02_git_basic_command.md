@@ -80,6 +80,12 @@
 
 <br/>
 
+## 8-2. add 했던거 취소
+
+    git reset HEAD~
+
+<br/>
+
 ## 9. commit 버전관리
     
     git commit -m "변경된 내용사항쓰기"
