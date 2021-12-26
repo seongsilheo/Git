@@ -5,7 +5,7 @@
 ## 1. 먼저 github에 가입후, 이메일 설정
 
     git config --global user.name "Write your name"
-    git config --global user.eamil "Write your email"
+    git config --global user.email "Write your email"
 
 이는 반드시 Github.com을 가입할 때 사용한 이메일이어야한다.
 
@@ -117,3 +117,30 @@ touch는 create하는 것을 의미.
 ## 13. master외의 branch 생성하고 싶으면,
 
      git branch <branchname>
+     
+## 14. branch 이동
+    git checkout <branchname>
+    
+## 15. merge
+    git merge <branchname>
+    
+## 16. ammend (commit 수정)
+    git add <filename>
+    git commit --amend
+    
+## 17. stash (commit하기는 싫고, 잠깐 임시저장 해놓고 싶을 때)
+    git stash save <이름>
+    git stash apply
+    
+## 18. git reset (위험하니까 혼자 쓰는 브랜치에서만 사용하자)
+    git log --oneline -5
+    git reset --hard <버전명>
+    git push --force
+    
+## 19. revert (특정한 커밋의 변경사항을 되돌려줘서 새로운 커밋을 만듬, master 브랜치에서 force하는 건 위험하니까)
+    git revert <버전명>
+    
+## Cherry-pick (특정 커밋 하나만 가져와서 현재 브렌치에 붙임)
+    git log # 가져오고 싶은 commit 이름 확인
+    git checkout <branch name> # cherry-pick으로 추가하려는 branch로 이동
+    git cherry-pick <버전명>
