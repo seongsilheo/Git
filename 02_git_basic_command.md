@@ -140,7 +140,13 @@ touch는 create하는 것을 의미.
 ## 19. revert (특정한 커밋의 변경사항을 되돌려줘서 새로운 커밋을 만듬, master 브랜치에서 force하는 건 위험하니까)
     git revert <버전명>
     
-## Cherry-pick (특정 커밋 하나만 가져와서 현재 브렌치에 붙임)
+## 20. Cherry-pick (특정 커밋 하나만 가져와서 현재 브렌치에 붙임)
     git log # 가져오고 싶은 commit 이름 확인
     git checkout <branch name> # cherry-pick으로 추가하려는 branch로 이동
     git cherry-pick <버전명>
+ 
+## 21. 현재 git 상황 체크
+    git status
+    
+## 22. git log로 커밋 확인
+    git log
